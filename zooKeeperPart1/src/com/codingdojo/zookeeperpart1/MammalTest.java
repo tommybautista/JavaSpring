@@ -9,9 +9,9 @@ public class MammalTest {
 //		
 		Gorilla g1 = new Gorilla();
 		g1.displayEnergy();
-		g1.throwSomething(6);
+		g1.throwSomething(10);
 		System.out.println("Current energy level is: " + g1.gorillaEnergy);
-		g1.eatBananas(6);
+		g1.eatBananas(4);
 		System.out.println("Current energy level is: " + g1.gorillaEnergy);
 		g1.climb();
 		System.out.println("Current energy level is: " + g1.gorillaEnergy);
