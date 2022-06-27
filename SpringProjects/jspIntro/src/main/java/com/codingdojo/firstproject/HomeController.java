@@ -6,14 +6,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HomeController {
-    @RequestMapping("/requestparam")
-    public String index(@RequestParam(value="q", required = false) String searchQuery) {
-    	if(searchQuery == null) {
-    		return "You searched for: nothing";
-    	} else {
-    		return "You searched for: " + searchQuery;
-    	}
+    @RequestMapping("/")
+    public String index() {
+		return "hello world";
     }
-    
 
 }
